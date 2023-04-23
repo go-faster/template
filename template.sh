@@ -15,4 +15,7 @@ grep -rl "${commit}" . | xargs sed -i "s|${commit}|${head}|g"
 rm pkg.go
 echo "package ${name}" > "${name}.go"
 
+rm README.md
+echo "# ${name}" > README.md
+
 rm template.sh
