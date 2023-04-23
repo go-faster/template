@@ -1,21 +1,32 @@
 #!/bin/bash
 
 set -e
-set -x
 
-template="github.com/go-faster/template"
+template="go-faster/template"
 name="${PWD##*/}"
-project="github.com/go-faster/${name}"
+repo="go-faster/${name}"
+pkg="github.com/${repo}"
 head="$(git rev-list --max-parents=0 HEAD)"
-commit="a65086111716ab748f562ce12cef7d8c01f91c92"
 
-grep -rl "${template}" . | xargs sed -i "s|${template}|${project}|g"
+set -e
+
+# update all references to the template repo
+grep -rl "${template}" . | xargs sed -i "s|${template}|${repo}|g"
+
+# update latest commit
+commit="a65086111716ab748f562ce12cef7d8c01f91c92"
 grep -rl "${commit}" . | xargs sed -i "s|${commit}|${head}|g"
 
+# generate new root package
 rm pkg.go
 printf "// Package %s is a new package.\npackage %s\n" name name > "${name}.go"
 
+# generate new README.md
 rm README.md
-echo "# ${name}" > README.md
+readme="# ${name} [![Go Reference](https://img.shields.io/badge/go-pkg-00ADD8)](https://pkg.go.dev/${pkg}#section-documentation) [![codecov](https://img.shields.io/codecov/c/github/${repo}?label=cover)](https://codecov.io/gh/${repo}) [![experimental](https://img.shields.io/badge/-experimental-blueviolet)](https://go-faster.org/docs/projects/status#experimental)
 
+Work in progress."
+echo "${readme}" > README.md
+
+# cleanup
 rm template.sh
