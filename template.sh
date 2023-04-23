@@ -13,7 +13,7 @@ grep -rl "${template}" . | xargs sed -i "s|${template}|${project}|g"
 grep -rl "${commit}" . | xargs sed -i "s|${commit}|${head}|g"
 
 rm pkg.go
-echo "package ${name}" > "${name}.go"
+printf "// Package %s is a new package.\npackage %s\n" name name > "${name}.go"
 
 rm README.md
 echo "# ${name}" > README.md
