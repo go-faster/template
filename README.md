@@ -3,7 +3,7 @@ Project template
 
 ## Untemplate
 
-Most easy way to create a new project:
+Easiest way:
 
 ```bash
 export NAME=your-project-name
