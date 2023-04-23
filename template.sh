@@ -13,6 +13,6 @@ grep -rl "${template}" . | xargs sed -i "s|${template}|${project}|g"
 grep -rl "${commit}" . | xargs sed -i "s|${commit}|${head}|g"
 
 rm pkg.go
-echo "package ${name}" > "${name}".go
+echo "package ${name}" > "${name}.go"
 
 rm template.sh
