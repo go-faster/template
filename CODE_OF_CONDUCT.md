@@ -38,7 +38,7 @@ Examples of unacceptable behavior include:
 Please refrain from:
 - Discussions of religion, politics, political personalities, disputed territories, current, past
   or potential conflicts and their contexts, any kind (ideological, technological or other) of superiority of one group (nation, country or other) on another or other potentially controversial topics
-- And kind of political activism or campaigning, including but not limited to, posting
+- Any kind of political activism or campaigning, including but not limited to, posting
   flags and banners, links to petitions, fundraising pages, or other political campaigning
   activities
 
