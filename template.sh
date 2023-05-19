@@ -19,7 +19,7 @@ grep -rl "${commit}" . | xargs sed -i "s|${commit}|${head}|g"
 
 # generate new root package
 rm pkg.go
-printf "// Package %s is a new package.\npackage %s\n" name name > "${name}.go"
+printf "// Package %s is a new package.\npackage %s\n" "${name}" "${name}" > "${name}.go"
 
 # generate new README.md
 rm README.md
