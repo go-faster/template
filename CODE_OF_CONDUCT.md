@@ -1,64 +1,45 @@
 # Code of Conduct
 
-## Our Pledge
+## 1. Pledge
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex, experience, education, socio-economic status,
-nationality, political beliefs and ideology, organization or group affiliation,
-country of origin, place of residence, mother tongue, personal appearance,
-race, caste, color, religion or sexual identity and orientation.
+1.1. As participants of this community, we pledge to ensure a respectful environment for everyone, irrespective of personal attributes such as age, ethnicity, sex, socio-economic status, nationality, beliefs, affiliations, or sexual identity.
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+1.2. We commit to foster openness, inclusivity, and a healthy interaction that promotes community growth.
 
-Our primary goal is building open source projects.
+1.3. Our focus lies in building open source projects.
 
-## Our Standards
+## 2. Expected Conduct
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+2.1. Encourage the open-minded exploration of ideas and respect differing opinions.
 
-- Open-minded approach to new ideas, concepts or different opinions
-- Focusing on what is best for the community
-- Giving and gracefully accepting constructive feedback
-- Keep responsibility for our own actions and correct the consequences
+2.2. Prioritize the community's interests.
 
-Examples of unacceptable behavior include:
+2.3. Offer, accept, and implement constructive feedback gracefully.
 
-- The use of sexualized language or imagery, and sexual attention or advances of
-  any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or email address,
-  without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+2.4. Acknowledge and rectify the consequences of our actions.
 
-Please refrain from:
-- Discussions of religion, politics, political personalities, disputed territories, current, past
-  or potential conflicts and their contexts, any kind (ideological, technological or other) of superiority of one group (nation, country or other) on another or other potentially controversial topics
-- And kind of political activism or campaigning, including but not limited to, posting
-  flags and banners, links to petitions, fundraising pages, or other political campaigning
-  activities
+## 3. Unacceptable Conduct
 
+3.1. Any form of sexual attention, advances, or inappropriate language or imagery.
 
-## Enforcement Responsibilities
+3.2. Trolling, insulting comments, derogatory remarks, or personal or political attacks.
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+3.3. Any kind of harassment, public or private.
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+3.4. Disclosing others' private information without explicit consent.
 
-## Scope
+3.5. Any other inappropriate behavior in a professional setting.
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+3.6. Engaging in discussions about potentially controversial topics like religion, politics, disputed territories, conflicts, or any sort of group superiority.
+
+3.7. Any political activism or campaigning, including posts related to political campaigns, petitions, fundraising pages, etc.
+
+## 4. Enforcement Responsibilities
+
+4.1. Community leaders will clarify and enforce the acceptable behavior and will take fair corrective action against violations.
+
+4.2. Leaders can remove, edit, or reject any community contributions not aligned with this CoC, and will provide reasons for their decisions when necessary.
+
+## 5. Scope
+
+5.1. This CoC applies to all community spaces and any public spaces where an individual represents the community officially.
