@@ -17,10 +17,6 @@ grep -rl "${template}" . | xargs sed -i "s|${template}|${repo}|g"
 commit="a65086111716ab748f562ce12cef7d8c01f91c92"
 grep -rl "${commit}" . | xargs sed -i "s|${commit}|${head}|g"
 
-# generate new root package
-rm pkg.go
-printf "// Package %s is a new package.\npackage %s\n" name name > "${name}.go"
-
 # generate new README.md
 rm README.md
 readme="# ${name} [![Go Reference](https://img.shields.io/badge/go-pkg-00ADD8)](https://pkg.go.dev/${pkg}#section-documentation) [![codecov](https://img.shields.io/codecov/c/github/${repo}?label=cover)](https://codecov.io/gh/${repo}) [![experimental](https://img.shields.io/badge/-experimental-blueviolet)](https://go-faster.org/docs/projects/status#experimental)

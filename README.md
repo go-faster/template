@@ -5,9 +5,16 @@ Project template
 
 Easiest way:
 
+### Prepare template repo
+
 ```bash
-export NAME=your-project-name
 gh repo clone go-faster/template
+```
+
+### Create new repo in `go-faster` organization
+
+```bash
+export NAME=new-project-name
 cp -r template "${NAME}"
 cd "${NAME}"
 
