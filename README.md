@@ -6,8 +6,11 @@ Project template
 Easiest way:
 
 ```bash
-export NAME=your-project-name
 gh repo clone go-faster/template
+```
+
+```bash
+export NAME=your-project-name
 cp -r template "${NAME}"
 cd "${NAME}"
 
