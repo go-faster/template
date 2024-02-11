@@ -16,11 +16,11 @@ cd "${NAME}"
 
 rm -rf .git
 git init
-git commit -m "init" --allow-empty
+git commit -m "feat: init repo" --allow-empty
 
 ./template.sh
 git add .
-git commit -m "feat: init"
+git commit -m "feat: init project"
 
 gh repo create --source . --public "go-faster/${NAME}"
 git push -u origin main
