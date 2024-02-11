@@ -11,6 +11,9 @@ gh repo clone go-faster/template
 
 ```bash
 export NAME=your-project-name
+```
+
+```bash
 cp -r template "${NAME}"
 cd "${NAME}"
 
