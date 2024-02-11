@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: "Use this template for reporting bugs, like `client: crashes on startup`"
-title: "[SUBJECT]: [DESCRIPTION]"
+title: "bug: [DESCRIPTION]"
 labels: bug
 ---
 
