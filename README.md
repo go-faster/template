@@ -17,7 +17,7 @@ export NAME=your-project-name
 cp -r template "${NAME}"
 cd "${NAME}"
 
-rm -rf .git
+rm -rf .git .idea
 git init
 git commit -m "feat: init repo" --allow-empty
 
