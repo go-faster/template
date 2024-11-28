@@ -1,3 +1,4 @@
 module github.com/go-faster/template
 
-go 1.20
+go 1.23.3
+

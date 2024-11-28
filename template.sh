@@ -30,3 +30,4 @@ echo "${readme}" > README.md
 
 # cleanup
 rm template.sh
+rm -rf .idea
